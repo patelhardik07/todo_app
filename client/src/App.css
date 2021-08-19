@@ -1,0 +1,69 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(171, 152, 189);
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  width: 450px;
+  height: 40px;
+  margin: 5px;
+  font-size: 17px;
+  border: none;
+}
+.btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  height: 40px;
+}
+.btn_del {
+  background-color: rgb(247, 39, 39);
+  color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  height: 40px;
+  width: 60px;
+}
+.container {
+  width: 550px;
+  min-height: 300px;
+  padding: 10px;
+}
+
+.task_container {
+  margin: 10px 0;
+  height: 50px;
+}
+
+.task {
+  flex-grow: 1;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.line_through {
+  font-size: 30px;
+  text-decoration: line-through;
+}
